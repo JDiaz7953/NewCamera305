@@ -31,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(155, 155, 155, 1)"
+            "backgroundColor": "rgba(80, 227, 194, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -54,9 +54,42 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {},
-        "BackgroundColor": "rgba(155, 155, 155, 1)"
+        "BackgroundColor": "rgba(80, 227, 194, 1)"
     },
     "children": [
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 22,
+                "Width": 44,
+                "X": 307,
+                "Y": 584,
+                "RelativeX": 307,
+                "RelativeY": 584,
+                "ResizeMode": "STRETCH",
+                "ParentId": "0aad4389-beeb-4934-831b-1c73b2709577",
+                "position": "absolute",
+                "edgeOffsets": 584,
+                "style": {
+                    "position": "absolute",
+                    "left": "0.13333333333333333%",
+                    "top": "82.54778860569715%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "dec138e8-6788-4111-969a-22689d90b7fd",
+            "thunkableVersion": 443,
+            "name": "ResponseSwitch"
+        },
         {
             "type": "TextInput",
             "translatedName": "Text Input",
@@ -339,18 +372,18 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "Confirmation response",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 94,
-                "Width": 381,
+                "Height": 58,
+                "Width": 186,
                 "Visible": true,
-                "X": 0,
+                "X": 117,
                 "Y": 580,
-                "RelativeX": 0,
+                "RelativeX": 117,
                 "RelativeY": 580,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -374,7 +407,7 @@
                     "flexWrap": "wrap",
                     "borderWidth": 0,
                     "borderRadius": 0,
-                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderColor": "rgba(0, 0, 0, 0)",
                     "borderStyle": "solid",
                     "shadowColor": "rgba(0, 0, 0, 0)",
                     "shadowOpacity": 0,
@@ -388,12 +421,14 @@
                     "left": "13.2%",
                     "top": "84.70764617691154%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "backgroundColor": "rgba(0, 0, 0, 0)"
                 },
                 "ParentId": "0aad4389-beeb-4934-831b-1c73b2709577",
                 "position": "absolute",
                 "edgeOffsets": 580,
-                "children": "Label"
+                "children": "Confirmation response",
+                "BackgroundColor": "rgba(0, 0, 0, 0)"
             },
             "children": [],
             "id": "cf87d42c-4cbf-439b-9a96-6d5aaa8ca831",

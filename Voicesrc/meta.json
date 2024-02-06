@@ -91,7 +91,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "original Camera App",
+            "projectName": "Camera AppV3",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -202,7 +202,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "8affa546-3f92-4121-958e-91cb2dbbd93b": {
+                    "scope": "APP",
+                    "name": "Switch",
+                    "screenId": "0aad4389-beeb-4934-831b-1c73b2709577"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
